@@ -11,5 +11,5 @@ SDB="$TS/tools/sdb"; TIZEN="$TS/tools/ide/bin/tizen"
 SERIAL="$("$SDB" devices | awk -v ip="$TV" 'index($1,ip)==1{print $1}' | head -1)"
 [ -n "$SERIAL" ] || { echo "Could not connect to $TV (is Developer Mode on with this Mac's IP?)"; exit 1; }
 "$TIZEN" install -s "$SERIAL" -n "$ROOT/RuvBeint.wgt"
-"$TIZEN" run -s "$SERIAL" -p RuvBeint0.RuvBeint || true
+"$TIZEN" run -s "$SERIAL" -p RuvBeint00.RuvBeint || true
 echo "Installed on $TV"

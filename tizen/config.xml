@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets"
         id="http://steinar.is/ruvbeint" version="1.0.0" viewmodes="maximized">
-    <tizen:application id="RuvBeint0.RuvBeint" package="RuvBeint0" required_version="2.3"/>
+    <tizen:application id="RuvBeint00.RuvBeint" package="RuvBeint00" required_version="2.3"/>
     <content src="index.html"/>
     <icon src="icon.png"/>
     <name>RÚV Beint</name>
